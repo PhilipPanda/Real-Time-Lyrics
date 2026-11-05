@@ -36,14 +36,10 @@ Change colors, animations, particles, text size, positioning, timing, and more.
 
 ## Showcase
 
-<details>
-<summary>Expand to see images</summary>
-
-Screenshots coming soon.
-
-</details>
+<video src="github/videos/showcase.mp4" controls width="100%"></video>
 
 ---
+
 
 ## License
 
