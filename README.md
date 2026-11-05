@@ -1,37 +1,48 @@
-# Real Time Lyrics
 
-Shows lyrics from your Spotify or browser music floating around you in Minecraft, in sync with the song.
+<p align="center">
+  <h1 align="center">♫ Real Time Lyrics ♫</h1>
+</p>
 
-Fabric mod for Minecraft 1.21.11. Each new line appears in your line of sight, words pop in one by one
-as they're sung with a glowing colored outline and sparkles, then the line drifts apart when the next one starts.
-A title card shows when a new song starts, and ♪ ♫ ♪ notes float during instrumental parts.
+<p align="center">
+  <img src="https://img.shields.io/badge/Minecraft-1.21.11-62B47A?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Fabric-Mod-DBD0B4?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-6B7280?style=for-the-badge">
+</p>
 
-## How it works
-- **What's playing:** Windows media controls (same info as the volume flyout). Linux uses `playerctl`, macOS asks Spotify/Music.
-- **Lyrics:** time-synced lyrics from [lrclib.net](https://lrclib.net) (free, no account).
-- Messy YouTube titles like `Artist - Song (Official Video)` from `ArtistVEVO` are cleaned up before searching.
+---
 
-## Keys (change in Options → Controls → Real Time Lyrics)
+### Shows lyrics from your Spotify or browser music floating around you in Minecraft, in sync with the song.
+
+---
+
+## Controls
+
 | Key | Action |
-|-----|--------|
-| `K` | Show / hide lyrics |
-| `]` | Lyrics sooner (+200 ms) |
-| `[` | Lyrics later (-200 ms) |
-| `\` | "Song just started" — resets timing (for players that don't report position) |
+|------|------|
+| `K` | Toggle lyrics |
+| `]` | Lyrics sooner |
+| `[` | Lyrics later |
+| `\` | Reset song timing |
+
+---
 
 ## Settings
-Press **Esc** in game and click **♫ Lyrics** (top-left) to open the settings. Changes show up live:
-lyrics on/off, follow me (lines move with you, or stay where they appeared), floating motion, glow outline,
-particles, song title card, see through walls, status messages, colors (rainbow, white, gold, aqua, pink, purple, green),
-text size, distance, height, spread, and a timing offset (e.g. for Bluetooth headphone delay).
-They're saved in `config/realtimelyrics.json`. You can also bind a key to open the settings in Controls.
 
-## Building
-Gradle needs Java 25 to run (Loom requirement); the mod itself compiles for Java 21.
-```
-./gradlew build
-```
-The jar ends up in `build/libs/`. Needs Fabric Loader and Fabric API.
+Press **Esc → ♫ Lyrics** to customize your experience.
+
+Change colors, animations, particles, text size, positioning, timing, and more.
+
+---
+
+## Showcase
+
+**[Watch Showcase Video](./github/videos/showcase.mp4)**
+
+---
+
 
 ## License
-MIT
+
+Licensed under the **MIT License**.
+
+---
