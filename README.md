@@ -36,7 +36,7 @@ Change colors, animations, particles, text size, positioning, timing, and more.
 
 ## Showcase
 
-<video src="github/videos/showcase.mp4" controls width="100%"></video>
+**[Watch Showcase Video](./github/videos/showcase.mp4)**
 
 ---
 
