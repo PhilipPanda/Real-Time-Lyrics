@@ -1,0 +1,8 @@
+{
+	"key.category.realtimelyrics.lyrics": "Real Time Lyrics",
+	"key.realtimelyrics.toggle": "Show / hide lyrics",
+	"key.realtimelyrics.earlier": "Lyrics sooner (+200 ms)",
+	"key.realtimelyrics.later": "Lyrics later (-200 ms)",
+	"key.realtimelyrics.restart": "Song just started (reset timing)",
+	"key.realtimelyrics.settings": "Open lyrics settings"
+}

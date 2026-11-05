@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "realtimelyrics",
+	"version": "${version}",
+	"name": "Real Time Lyrics",
+	"description": "Shows the lyrics of whatever you're playing (Spotify, browser, any media app) floating in the air around you, word by word, in sync.",
+	"authors": ["PhilipPanda"],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/realtimelyrics/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.realtimelyrics.RealTimeLyricsClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
