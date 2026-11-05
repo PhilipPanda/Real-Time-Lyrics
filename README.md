@@ -11,30 +11,7 @@
 
 ---
 
-### **Real Time Lyrics** is a Minecraft Fabric mod that displays synchronized lyrics from Spotify, YouTube, and other music players directly in your Minecraft world.
-
-Lyrics float around you, appearing word by word in sync with your music, featuring glowing text, colorful effects, sparkles, and smooth animations.
-
----
-
-## Features
-
-- Real-time synchronized lyrics
-- Spotify, browser, and media player support
-- Animated floating lyrics
-- Glowing text and particle effects
-- Customizable colors and animations
-- Song title displays
-- In-game settings menu
-- Adjustable lyric timing
-
----
-
-## Installation
-
-1. Install **Fabric Loader** and **Fabric API**.
-2. Place the mod `.jar` in your Minecraft `mods` folder.
-3. Launch Minecraft and play your music!
+### Shows lyrics from your Spotify or browser music floating around you in Minecraft, in sync with the song.
 
 ---
 
